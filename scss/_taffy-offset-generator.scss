@@ -1,0 +1,6 @@
+@mixin taffy-offset-generator($name: null, $amount: $taffy-amount) {
+  @include taffy-offset($name, $amount);
+  @include taffy-offset-breaks($name, $amount);
+}
+
+@include taffy-offset-generator;

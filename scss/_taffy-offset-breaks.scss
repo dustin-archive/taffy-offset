@@ -1,0 +1,7 @@
+@mixin taffy-offset-breaks($name, $amount) {
+  @for $i from 1 through $taffy-amount {
+    @include break($i) {
+      @include taffy-offset($name, $amount, $i);
+    }
+  }
+}
