@@ -1,7 +1,7 @@
 Taffy Offsets
 =============
 
-## Offsets for a sweet responsive grid.
+### Offsets for a sweet responsive grid.
 
 ## Overview
 Offsets use margins to create space on either side of a Taffy item. Because margins can't flex, offsets won't occupy the same amount of space as an item unless you're using a fixed Taffy grid.
